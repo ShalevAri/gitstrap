@@ -1,7 +1,11 @@
 [package]
 name = "gitstrap"
+authors = ["Shalev Ari"]
 version = "0.1.0"
 edition = "2021"
+description = "Initialize a Git repo, quickly!"
+repository = "https://github.com/shalev/gitstrap"
+license = "AGPL-3.0-only"
 
 [dependencies]
 clap = { version = "4.1", features = ["derive"] }
