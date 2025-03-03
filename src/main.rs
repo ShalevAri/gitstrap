@@ -47,7 +47,7 @@ fn main() {
     let auto_yes = args.yes;
 
     let remote_url: String = Input::new()
-        .with_prompt("Enter the remote origin URL (e.g., https://github.com/user/repo.git)")
+        .with_prompt("Enter the remote origin URL (e.g., https://github.com/ShalevAri/gitstrap.git)")
         .interact_text()
         .unwrap();
 
