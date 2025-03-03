@@ -13,7 +13,7 @@ struct Args {
 fn run_command(cmd: &str, auto_yes: bool) -> bool {
     if !auto_yes {
         let confirmed = Confirm::new()
-            .with_prompt(format!("Do you want to run: \"{}\"?", cmd))
+            .with_prompt(format!("Should I run: \"{}\" for you?", cmd))
             .default(false)
             .interact()
             .unwrap();
