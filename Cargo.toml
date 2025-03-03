@@ -4,7 +4,7 @@ authors = ["Shalev Ari"]
 version = "0.1.0"
 edition = "2021"
 description = "Initialize a Git repo, quickly!"
-repository = "https://github.com/shalev/gitstrap"
+repository = "https://github.com/ShalevAri/gitstrap"
 license = "AGPL-3.0-only"
 
 [dependencies]
