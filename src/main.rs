@@ -4,7 +4,7 @@ use std::process::{Command, exit};
 
 #[derive(Parser)]
 #[command(name = "gitstrap")]
-#[command(about = "Initialize a Git repo, quickly!", long_about = None)]
+#[command(about = "Initialize a new GitHub repository, blazingly fast!", long_about = None)]
 struct Args {
     #[arg(short, long)]
     yes: bool,
