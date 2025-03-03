@@ -14,6 +14,10 @@ cargo install gitstrap
 
 To initialize a new GitHub repository, simply run `gitstrap` in your terminal:
 
+```bash
+gitstrap
+```
+
 This will prompt you for the remote origin URL (e.g., `https://github.com/ShalevAri/gitstrap.git`) and then run the following commands:
 
 ```bash
